@@ -68,8 +68,8 @@ a:hover {
 
 #weather_city {
   white-space: nowrap;
-  animation: rightThenLeft 5s linear;
-  animation-iterative-count: infinite;
+  -webkit-animation: rightThenLeft 5s linear;
+  -webkit-animation-iterative-count: infinite;
 }
 
 @-webkit-keyframes rightThenLeft {
